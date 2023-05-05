@@ -42,6 +42,7 @@ const ProjectCard = ({
                 src={github}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
+                title="View Source Code"
               />
             </div>
           </div>

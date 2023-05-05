@@ -21,8 +21,11 @@ import {
     shopify,
     carrent,
     jobit,
+    calc_js,
+    todo,
     tripguide,
     threejs,
+    logo,
   } from "../assets";
   
   export const navLinks = [
@@ -38,6 +41,7 @@ import {
       id: "contact",
       title: "Contact",
     },
+
   ];
   
   const services = [
@@ -155,7 +159,49 @@ import {
       ],
       image: jobit,
       source_code_link: "https://kuttikidoos.com/",
-    },   
+    },  
+    {
+      name: "Simple-Calculator",
+      description:
+        "A simple calculator created using html, css and javascript.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: " css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: calc_js,
+      source_code_link: "https://github.com/iamThaslim/JS-Calculator",
+    },  
+    {
+      name: "React-Todo List",
+      description:
+        "This project is a simple to-do list application built using ReactJS and Vite. Users can add new tasks to the list, mark tasks as completed, and delete completed tasks.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: todo,
+      source_code_link: "https://github.com/iamThaslim/react-to-do-list",
+    },  
   ];
   
   export { services, technologies, experiences, projects };
