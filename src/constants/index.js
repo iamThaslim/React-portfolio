@@ -26,6 +26,7 @@ import {
     tripguide,
     threejs,
     logo,
+    portf,
   } from "../assets";
   
   export const navLinks = [
@@ -201,7 +202,28 @@ import {
       ],
       image: todo,
       source_code_link: "https://github.com/iamThaslim/react-to-do-list",
-    },  
+    }, 
+    {
+      name: "React-Portfolio",
+      description:
+        "A 3D portfolio made using modern reactjs and Threejs.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "framerMotion",
+          color: "green-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portf,
+      source_code_link: "https://github.com/iamThaslim/React-portfolio",
+    }, 
   ];
   
   export { services, technologies, experiences, projects };

@@ -31,6 +31,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import calc_js from "./calc_js.png";
 import todo from "./todo.png";
+import portf from "./portf.png";
 
 export {
   logo,
@@ -62,5 +63,6 @@ export {
   jobit,
   tripguide,
   calc_js,
-  todo
+  todo,
+  portf
 };
